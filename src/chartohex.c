@@ -11,7 +11,7 @@ void ctoh(char data[], char *string)
 	for(count = 0; count < 16; count++)
 	{
 		temp_data = data[count];
-		printf("%X", temp_data & 0xff);
+		printf("%x", temp_data & 0xff);
 	}
 	
 	printf("\n");
